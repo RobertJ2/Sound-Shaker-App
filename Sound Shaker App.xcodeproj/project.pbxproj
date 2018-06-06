@@ -14,6 +14,12 @@
 		2996C4DD1FF5DCBD002714EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2996C4DB1FF5DCBD002714EA /* LaunchScreen.storyboard */; };
 		2996C4E81FF5DCBD002714EA /* Sound_Shaker_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996C4E71FF5DCBD002714EA /* Sound_Shaker_AppTests.swift */; };
 		2996C4F31FF5DCBD002714EA /* Sound_Shaker_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996C4F21FF5DCBD002714EA /* Sound_Shaker_AppUITests.swift */; };
+		2996C5071FF5DFDB002714EA /* flexitone_accent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2996C5011FF5DFDB002714EA /* flexitone_accent.mp3 */; };
+		2996C5081FF5DFDB002714EA /* swoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2996C5021FF5DFDB002714EA /* swoosh.mp3 */; };
+		2996C5091FF5DFDB002714EA /* knifethrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2996C5031FF5DFDB002714EA /* knifethrow.mp3 */; };
+		2996C50A1FF5DFDB002714EA /* arrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2996C5041FF5DFDB002714EA /* arrow.mp3 */; };
+		2996C50B1FF5DFDB002714EA /* double_pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2996C5051FF5DFDB002714EA /* double_pop.mp3 */; };
+		2996C50C1FF5DFDB002714EA /* warble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2996C5061FF5DFDB002714EA /* warble.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		2996C4EE1FF5DCBD002714EA /* Sound Shaker AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sound Shaker AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2996C4F21FF5DCBD002714EA /* Sound_Shaker_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound_Shaker_AppUITests.swift; sourceTree = "<group>"; };
 		2996C4F41FF5DCBD002714EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2996C5011FF5DFDB002714EA /* flexitone_accent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flexitone_accent.mp3; sourceTree = "<group>"; };
+		2996C5021FF5DFDB002714EA /* swoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swoosh.mp3; sourceTree = "<group>"; };
+		2996C5031FF5DFDB002714EA /* knifethrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = knifethrow.mp3; sourceTree = "<group>"; };
+		2996C5041FF5DFDB002714EA /* arrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arrow.mp3; sourceTree = "<group>"; };
+		2996C5051FF5DFDB002714EA /* double_pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = double_pop.mp3; sourceTree = "<group>"; };
+		2996C5061FF5DFDB002714EA /* warble.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = warble.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,7 @@
 				2996C4D21FF5DCBD002714EA /* AppDelegate.swift */,
 				2996C4D41FF5DCBD002714EA /* ViewController.swift */,
 				2996C4D61FF5DCBD002714EA /* Main.storyboard */,
+				2996C5001FF5DFDB002714EA /* sounds */,
 				2996C4D91FF5DCBD002714EA /* Assets.xcassets */,
 				2996C4DB1FF5DCBD002714EA /* LaunchScreen.storyboard */,
 				2996C4DE1FF5DCBD002714EA /* Info.plist */,
@@ -123,6 +136,20 @@
 				2996C4F41FF5DCBD002714EA /* Info.plist */,
 			);
 			path = "Sound Shaker AppUITests";
+			sourceTree = "<group>";
+		};
+		2996C5001FF5DFDB002714EA /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2996C5011FF5DFDB002714EA /* flexitone_accent.mp3 */,
+				2996C5021FF5DFDB002714EA /* swoosh.mp3 */,
+				2996C5031FF5DFDB002714EA /* knifethrow.mp3 */,
+				2996C5041FF5DFDB002714EA /* arrow.mp3 */,
+				2996C5051FF5DFDB002714EA /* double_pop.mp3 */,
+				2996C5061FF5DFDB002714EA /* warble.mp3 */,
+			);
+			name = sounds;
+			path = ../../../../Downloads/sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +260,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2996C4DD1FF5DCBD002714EA /* LaunchScreen.storyboard in Resources */,
+				2996C5071FF5DFDB002714EA /* flexitone_accent.mp3 in Resources */,
+				2996C50C1FF5DFDB002714EA /* warble.mp3 in Resources */,
+				2996C50A1FF5DFDB002714EA /* arrow.mp3 in Resources */,
 				2996C4DA1FF5DCBD002714EA /* Assets.xcassets in Resources */,
 				2996C4D81FF5DCBD002714EA /* Main.storyboard in Resources */,
+				2996C50B1FF5DFDB002714EA /* double_pop.mp3 in Resources */,
+				2996C5081FF5DFDB002714EA /* swoosh.mp3 in Resources */,
+				2996C5091FF5DFDB002714EA /* knifethrow.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
